@@ -1,0 +1,23 @@
+body {
+    background-image: url(/images/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+ul {
+    display: flex;
+}
+ul  a {
+    text-decoration: none;
+    color: white;
+}
+ul li {
+    list-style-type: none;
+    margin: 10px;
+}
