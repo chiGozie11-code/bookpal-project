@@ -528,49 +528,132 @@ ul li {
 
 .owl-carousel {
   width: 100vh;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .slide-1 {
-  height: 400px;
-  width: 300px;
+  /* height: 400px; */
+  /* width: 300px; */
   display: flex;
   justify-content: center;
   align-content: center;
+  /* background-color: red; */
 }
 
-.owl-carousel img {
-  height: 150px;
+/* .owl-carousel img {
+  height: 250px;
   margin: 20px;
+} */
+.picture-one {
+  background-image: url(/images/animal-farm.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 3px 0px gray;
+  height: 200px;
+  width: 200px;
+  margin: 20px ;
 }
-
+#changeof-pic1 {
+  background-image: url(/images/the-case-of-the-missing-smile.jpg);
+}
+#changeof-pic2 {
+  background-image: url(/images/the-jungle-books.jpg);
+}
+#changeof-pic3 {
+  background-image: url(/images/the-great-gatsby-1.jpg);
+}
+#changeof-pic4 {
+  background-image: url(/images/pride-and-prejudice-1.jpg);
+}
+#changeof-pic5 {
+  background-image: url(/images/the-one-and-only-human-body-facts-about-our-bodies.jpg);
+}
+#changeof-pic6 {
+  background-image: url(/images/the-hobbit.jpg);
+}
+#changeof-pic7 {
+  background-image: url(/images/time-machine-1.jpg);
+}
+#changeof-pic8 {
+  background-image: url(/images/ginger-and-the-giraffe.jpg);
+}
+#changeof-pic9 {
+  background-image: url(/images/hard-times.jpg);
+}
+#changeof-pic11 {
+  background-image: url(/images/time-machine-1.jpg);
+}
+#changeof-pic12 {
+  background-image: url(/images/pride-and-prejudice-1.jpg);
+}
+#changeof-pic13 {
+  background-image: url(/images/slip-and-slide-a-tale-of-friction.jpg);
+}
+#changeof-pic14 {
+  background-image: url(/images/alice-in-wonderland.jpg);
+}
+#changeof-pic15 {
+  background-image: url(/images/charlottes-web.jpg);
+}
+#changeof-pic16 {
+  background-image: url(/images/black-beauty.jpg);
+}
+#changeof-pic17 {
+  background-image: url(/images/who-will-save-the-planet-an-adventure-in-climate-change-activism.jpg);
+}
+#changeof-pic18 {
+  background-image: url(/images/default_book_thumbnail.jpg);
+}
+#changeof-pic19 {
+  background-image: url(/images/decision-working-together.jpg);
+}
+#changeof-pic20 {
+  background-image: url(/images/matchbox-dreams-bedtime-stories.jpg);
+}
+#changeof-pic21 {
+  background-image: url(/images/adventures-of-tom-sawyer.jpg);
+}
+#changeof-pic22 {
+  background-image: url(/images/alice-in-wonderland.jpg);
+}
+#changeof-pic23 {
+  background-image: url(/images/charlottes-web.jpg);
+}
+#changeof-pic24 {
+  background-image: url(/images/black-beauty.jpg);
+}
+#changeof-pic25 {
+  background-image: url(/images/who-will-save-the-planet-an-adventure-in-climate-change-activism.jpg);
+}
 .slide-2 {
-  height: 400px;
-  width: 300px;
+  /* background-color: red; */
+  /* height: 400px; */
+  /* width: 300px; */
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .slide-3 {
-  height: 400px;
-  width: 300px;
+  /* height: 400px; */
+  /* width: 300px; */
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .slide-4 {
-  height: 400px;
-  width: 300px;
+  /* height: 400px; */
+  /* width: 300px; */
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .slide-5 {
-  height: 400px;
-  width: 300px;
+  /* height: 400px; */
+  /* width: 300px; */
   display: flex;
   justify-content: center;
   align-content: center;
@@ -579,8 +662,6 @@ ul li {
 .owl-dots {
   width: 100%;
   text-align: center;
-  position: absolute;
-  bottom: 1%;
 }
 
 #mobile-carousel {
@@ -1077,7 +1158,9 @@ textarea {
   top: 1px;
   font-size: 17px;
 }
-
+#mobleview-ofboxs {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   * {
     padding: 0px;
@@ -1090,7 +1173,6 @@ textarea {
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
   }
-
   .ham {
     display: block;
     position: relative;
@@ -1106,18 +1188,6 @@ textarea {
     list-style-type: none;
     margin: 0px;
   }
-
-  /* .change .bar1 {
-    transform: rotate(45deg) translate(8px, 3px);
-  }
-
-  .change .bar2 {
-    opacity: 0;
-  }
-
-  .change .bar3 {
-    transform: rotate(-45deg) translate(8px, -3px);
-  } */
   .closebtn {
     position: absolute;
     top: 0;
@@ -1287,6 +1357,7 @@ textarea {
     /* right: 250px; */
     z-index: -1;
     left: 0px;
+    /* display: none; */
   }
 
   .diverr {
@@ -1367,15 +1438,13 @@ textarea {
     padding: 40px;
   }
 
-  .owl-carousel img {
-    height: 100px;
-    margin: 10px;
-  }
 
   .club-div {
     width: 500px;
   }
-
+  .wrapper-five {
+    display: none;
+  }
   .our-drive {
     /* background-color: red; */
     width: 300px;
@@ -1390,7 +1459,7 @@ textarea {
     bottom: 30px;
     left: 70px;
     color: gray;
-    width: 100%;
+    /* width: 100px; */
     /* background-color: green; */
   }
 
@@ -1441,7 +1510,7 @@ textarea {
   }
 
   .instu {
-    margin: 10px;
+    margin: 4px;
     width: 150px;
 
   }
@@ -1458,13 +1527,16 @@ textarea {
     align-content: center;
     padding: 20px;
   }
-
+   .att-img h3  {
+      font-size: 22px;
+   }
   .club-imgs {
     border: 1px solid white;
     border-radius: 50px;
     width: 100px;
     height: 100px;
     padding: 0px;
+    /* background-color: red; */
   }
 
   iframe {
@@ -1473,24 +1545,26 @@ textarea {
   }
 
   #contact {
-    height: 250px;
+    height: 0px;
     display: none;
   }
 
   .texrt {
     display: block;
   }
-
+   .contact-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   }
   .conn {
     width: 360px;
     margin: 10px;
     padding-bottom: 50px;
   }
-
-  form {
-    margin-right: 40px;
+  #remove-image {
+    display: none;
   }
-
   input {
     padding: 10px;
     padding-right: 180px;
@@ -1604,12 +1678,71 @@ textarea {
 
   #mobile-carousel {
     display: block;
+    height: fit-content;
   }
-
+  .picture-one {
+    background-image: url(/images/animal-farm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 3px 0px gray;
+    height: 250px;
+    width:  250px;
+    margin: 20px;
+  }
+  #changeof-pic1 {
+    background-image: url(/images/the-case-of-the-missing-smile.jpg);
+  }
+  #changeof-pic2 {
+    background-image: url(/images/the-jungle-books.jpg);
+  }
+  #changeof-pic3 {
+    background-image: url(/images/the-great-gatsby-1.jpg);
+  }
+  #changeof-pic4 {
+    background-image: url(/images/pride-and-prejudice-1.jpg);
+  }
+  .slide-1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .slide-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .slide-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .slide-4 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .slide-5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .owl-dots {
+    width: 100%;
+    text-align: center;
+    /* position: absolute;
+    bottom: 1%; */
+  }
   #mobile-checker {
     width: 100vh;
     height: 200px;
     display: none;
+  }
+  #mobleview-ofboxs {
+    display: block;
   }
 
 
