@@ -64,22 +64,22 @@ window.addEventListener('scroll', function() {
 
 
 
-var arry = ["images/banner1.png", "images/banner2.png", "images/banner3.png"];
-var index = 0;
+  var arry = ["images/banner1.png", "images/banner2.png", "images/banner3.png"];
+  var index = 0;
 
-function baChange(dimg) {
-  let bg = document.querySelector(".wrapper");
-  bg.style.backgroundImage = "url(" + dimg + ")";
-  setTimeout(() => {
-    if (index >= arry.length) {
-      index = 0;
-    }
-    baChange(arry[index])
-    console.log('good');
-  }, 5000);
-  index++;
-}
-baChange(arry[index]);
+  function baChange(dimg) {
+    let bg = document.querySelector(".wrapper");
+    bg.style.backgroundImage = "url(" + dimg + ")";
+    setTimeout(() => {
+      if (index >= arry.length) {
+        index = 0;
+      }
+      baChange(arry[index])
+      console.log('good');
+    }, 5000);
+    index++;
+  }
+  baChange(arry[index]);
 
 // for image slider/
 $(document).ready(function () {
